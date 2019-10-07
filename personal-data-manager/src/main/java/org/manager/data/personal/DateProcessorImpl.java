@@ -8,7 +8,7 @@ public class DateProcessorImpl implements DateProcessor {
 
     @Override
     public void process(Person p, String data){
-        if (!data.isEmpty()) {
+        if (data != null && !data.isEmpty()) {
             p.setBirthDate(preprocessDate(data));
         }
     }
