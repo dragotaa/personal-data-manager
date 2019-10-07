@@ -26,8 +26,9 @@ public class PersonalDataManagerTest
 
     @Test
     public void readFileLineByLine() throws IOException {
-        List<String> addressBookLines = underTest.processFile(Paths.get("AddressBook"));
+        List<Person> addressBookLines = underTest.processFile(Paths.get("AddressBook"));
         assertEquals(5, addressBookLines.size());
+        assertEquals("1977-03-16", addressBookLines.get(0).getBirthDate().toString());
     }
 
 }
