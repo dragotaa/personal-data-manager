@@ -1,4 +1,4 @@
-package org.manager.data.personal;
+package org.manager.data.personal.model;
 
 
 import java.time.LocalDate;

@@ -1,7 +1,11 @@
-package org.manager.data.personal;
+package org.manager.data.personal.processor;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.manager.data.personal.model.GenderEnum;
+import org.manager.data.personal.model.Person;
+import org.manager.data.personal.processor.GenderProcessor;
+import org.manager.data.personal.processor.GenderProcessorImpl;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,7 @@
-package org.manager.data.personal;
+package org.manager.data.personal.processor;
+
+import org.manager.data.personal.model.GenderEnum;
+import org.manager.data.personal.model.Person;
 
 public class GenderProcessorImpl implements GenderProcessor {
 

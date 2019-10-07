@@ -1,4 +1,4 @@
-package org.manager.data.personal;
+package org.manager.data.personal.model;
 
 public enum GenderEnum {
     Male,

@@ -1,7 +1,9 @@
-package org.manager.data.personal;
+package org.manager.data.personal.processor;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.manager.data.personal.model.Person;
+import org.manager.data.personal.processor.DateProcessorImpl;
 
 import java.time.LocalDate;
 

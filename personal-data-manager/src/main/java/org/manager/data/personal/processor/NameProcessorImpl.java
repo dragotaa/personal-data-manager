@@ -1,4 +1,6 @@
-package org.manager.data.personal;
+package org.manager.data.personal.processor;
+
+import org.manager.data.personal.model.Person;
 
 public class NameProcessorImpl implements NameProcessor{
 
